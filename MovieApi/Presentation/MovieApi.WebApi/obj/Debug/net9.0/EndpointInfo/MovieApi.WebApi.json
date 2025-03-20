@@ -192,9 +192,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Movie/GetMovie/{id}": {
+      },
       "put": {
         "tags": [
           "Movie"
@@ -234,9 +232,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Movie/DeleteMovie/{id}": {
+      },
       "delete": {
         "tags": [
           "Movie"

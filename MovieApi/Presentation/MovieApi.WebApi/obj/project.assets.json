@@ -1710,6 +1710,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "MediatR": "12.4.1",
           "MovieApi.Domain": "1.0.0",
           "MovieApi.Persistence": "1.0.0"
         },

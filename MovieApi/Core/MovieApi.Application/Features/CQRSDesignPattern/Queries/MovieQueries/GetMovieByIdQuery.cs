@@ -1,9 +1,8 @@
-namespace MovieApi.Application.Features.CQRSDesignPattern.Quaries.MovieQueries {
+namespace MovieApi.Application.Features.CQRSDesignPattern.Queries.MovieQueries {
     public class GetMovieByIdQuery {
-        private int id;
 
         public GetMovieByIdQuery(int id) {
-            this.id = id;
+            MovieId = id;
         }
 
         public int MovieId { get; set; }
